@@ -447,9 +447,9 @@ def plot_best_model_holdout_diagnostics(
     # Residual distributions within the three reporting ranges.
     residual_frame = pd.DataFrame({"Observed": observed, "Residual": residual})
     bin_labels = [
-        f"≤{thresholds[0]:g}",
-        f"{thresholds[0]:g}–{thresholds[1]:g}",
-        f">{thresholds[1]:g}",
+        f"≤{thresholds[0]:.1f}",
+        f"{thresholds[0]:.1f}–{thresholds[1]:.1f}",
+        f">{thresholds[1]:.1f}",
     ]
     residual_frame["Bin"] = pd.cut(
         residual_frame["Observed"],

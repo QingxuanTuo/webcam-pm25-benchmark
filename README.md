@@ -1,6 +1,6 @@
-# Air Quality from Webcam Images: A Multi-Source PM₂.₅ Benchmark
+# Implementation and Comparison of Modelling Approaches for Image-Based PM₂.₅ Estimation
 
-### An open and reproducible benchmark for webcam-based image features, multi-source data fusion, conventional machine-learning models, and pretrained CNN representations
+### An open and reproducible implementation for comparing image-based PM₂.₅ modelling approaches using webcam imagery and multi-source environmental data
 
 This repository contains an end-to-end workflow for estimating PM₂.₅ from fixed-camera outdoor images and complementary environmental data. It covers automated data acquisition, preprocessing, fixed-ROI image-feature extraction, multi-source evaluation, machine-learning benchmarking, and a pretrained CNN extension.
 
@@ -109,11 +109,11 @@ and reproducible evaluation within a single benchmark workflow.
 
 # Research Questions
 
-- **RQ1:** Can handcrafted ROI image features effectively represent PM2.5 variations?
-- **RQ2:** Does combining image, environmental, monitoring, and temporal predictors improve PM2.5 estimation compared with using image features alone?
-- **RQ3:** How accurately do conventional machine-learning models and a feature-based neural network estimate PM2.5 under a common benchmark protocol?
-- **RQ4:** Can pretrained CNN representations from raw ROI images achieve competitive PM2.5 estimation performance compared with handcrafted image features?
-- **RQ5:** Does combining learned image representations with environmental and temporal predictors improve performance over image representations alone?
+- **RQ1:** Can fixed-camera imagery be used to estimate PM₂.₅ concentration?
+- **RQ2:** Does combining imagery with meteorological and temporal information improve PM₂.₅ estimation?
+- **RQ3:** Which modelling approaches are better suited to image-based PM₂.₅ estimation?
+- **RQ4:** How accurately can the best-performing approach reproduce regulatory PM₂.₅ observations?
+- **RQ5:** How well do the main findings generalise across temporal and external evaluation conditions?
 
 ---
 
