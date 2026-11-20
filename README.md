@@ -460,3 +460,5 @@ environmental conditions. Detailed results are reported in the thesis.
 The source code in this repository is licensed under the [MIT License](LICENSE).
 
 Third-party environmental data and webcam imagery are not covered by the MIT License and remain subject to the terms and licences of their respective providers.
+
+For Nanjing and ERA5 data sources, processing and licensing details, see [the Nanjing README](external%20validation/README.md).

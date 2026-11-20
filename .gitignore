@@ -18,8 +18,18 @@ env/
 # Local diagnostic notebooks used for thesis sensitivity analyses
 notebooks/diagnostics/
 
-# External validation data, notebooks, and generated outputs are kept locally only
-external validation/
+# Publish the final Nanjing workflow, ERA5 input and result tables only
+/external validation/*
+!/external validation/README.md
+!/external validation/01_nanjing_external_validation_cv_holdout.ipynb
+!/external validation/Nanjing/
+/external validation/Nanjing/*
+!/external validation/Nanjing/nanjing_era5_hourly.csv
+!/external validation/results/
+/external validation/results/*
+!/external validation/results/nanjing_cv_holdout/
+/external validation/results/nanjing_cv_holdout/*
+!/external validation/results/nanjing_cv_holdout/*.csv
 
 # Local plotting and utility scripts are kept locally only
 scripts/

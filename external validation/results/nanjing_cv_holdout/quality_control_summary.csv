@@ -1,0 +1,11 @@
+Check,Value
+Raw PM2.5 label rows,2691
+Missing PM2.5 removed,0
+Invalid PM2.5 removed,0
+Missing image links removed,0
+Duplicate timestamps removed,0
+Invalid image rows removed,0
+Invalid ERA5 hours in source,0
+Image timestamps without ERA5 removed,4
+Incomplete final rows removed,0
+Final complete samples,2687

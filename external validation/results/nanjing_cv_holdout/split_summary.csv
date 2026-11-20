@@ -1,0 +1,4 @@
+Subset,Samples,Independent dates,Observed months,Percentage,Mean PM2.5,Median PM2.5,Maximum PM2.5,Samples >35
+Complete dataset,2687,132,6,100.0,26.431708224786007,22.0,136,686
+Development set,2133,104,6,79.38221064384071,26.62165963431786,22.0,127,548
+Common hold-out,554,28,6,20.617789356159285,25.700361010830324,22.0,136,138
